@@ -1,6 +1,6 @@
 {
   "about": {
-    "author": "jrobalino",
+    "author": "daniel",
     "defaultLanguage": "en-US",
     "extends": null,
     "isDesktop": true,
@@ -395,7 +395,7 @@
       "Source Sans Pro"
     ],
     "primaryFont": "Source Sans Pro",
-    "fontSize": "14px",
+    "fontSize": "20px",
     "gutterWidth": "25px",
     "internal-themeAddons": [],
     "itemListingThumbSize": 80,
