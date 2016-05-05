@@ -6,7 +6,7 @@
     "isDesktop": true,
     "isMobile": false,
     "isTablet": false,
-    "name": "Team-Theme2",
+    "name": "Team-Theme",
     "allowProduction": true,
     "baseTheme": "https://github.com/mozu/core-theme.git",
     "baseThemeVersion": {
