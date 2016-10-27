@@ -1,5 +1,71 @@
 {
     "items": [
+       
+                {
+                    "xtype": "panel",
+    "title": "This is a panel with date picker and checkbox form controls",
+    "collapsed": false,
+    "items": [
+        {
+            "xtype": "mz-input-date",
+            "name": "date",
+            "fieldLabel": "Date Picker"
+            
+
+            }
+    ]},
+     {
+                    "xtype": "panel",
+    "title": "Test2",
+    "collapsed": false,
+    "items": [
+        {
+            "xtype": "mz-input-checkbox",
+            "name": "checkbox",
+            "fieldLabel": "Checkbox"
+            
+
+            }
+    ]},
+    {
+    "xtype": "panel",
+    "title": "Store Name and Logo",
+    "collapsed": false,
+    "items": [
+        {
+            "xtype": "mz-input-text",
+            "name": "storeName",
+            "fieldLabel": "Store Name"
+            
+
+            },
+             {
+            "xtype": "mz-input-checkbox",
+            "name": "displayLogo",
+            "fieldLabel": "Display Logo?",
+            "enableIf": "storeName"
+            },
+             {
+            "xtype": "mz-input-image",
+            "name": "logo",
+            "fieldLabel": "Logo",
+            "showIf": "displayLogo"
+            }
+    ]},
+     {
+                    "xtype": "panel",
+    "title": "Test2",
+    "collapsed": false,
+    "items": [
+        {
+            "xtype": "mz-input-checkbox",
+            "name": "checkbox",
+            "fieldLabel": "Checkbox"
+            
+
+            }
+    ]},
+                
         {
             "xtype": "panel",
             "title": "General",
